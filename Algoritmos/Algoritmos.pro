@@ -11,15 +11,18 @@ CONFIG += c++17
 SOURCES += \
     knapsack.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    viajeros.cpp
 
 HEADERS += \
     knapsack.h \
-    mainwindow.h
+    mainwindow.h \
+    viajeros.h
 
 FORMS += \
     knapsack.ui \
-    mainwindow.ui
+    mainwindow.ui \
+    viajeros.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
